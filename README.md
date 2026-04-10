@@ -34,3 +34,28 @@ This project analyzes how people interact with LLMs and what makes prompts effec
 - What types of tasks do users most commonly use AI tools for?
 - How does prompt complexity affect response quality?
 - What patterns distinguish effective vs ineffective prompts?
+
+**Week 10 Update**
+
+I will be completing my final project on my own.
+
+I am focusing on the idea of understanding how people evaluate responses from large language models (LLMs), rather than only comparing the models themselves. I am particularly interested in how prompt design influences response quality and how humans judge those responses.
+
+Initially, I considered using a larger dataset(30 prompts) and testing consistency(2x) by repeating prompts multiple times. However, after discussing this with my professor, I decided to scale the project down to make the data collection and evaluation more manageable. Instead, I will use a smaller set of prompts and collect responses from two models, ChatGPT and Gemini.
+
+For each prompt, I will gather responses from both models and have a small group of people evaluate them using a simple scoring system. This shifts the focus of the project toward human judgment and how different people perceive response quality.
+
+Some of the data sources I am considering include:
+
+Responses generated directly from LLMs (ChatGPT and Gemini)
+Pros: full control over prompts and experiment design
+Cons: requires manual data collection and human evaluation
+Potential use of publicly available prompt datasets
+Pros: larger dataset
+Cons: less control over structure and experiment setup
+
+The main questions I am hoping to explore are:
+How do human evaluators rate responses from different models?
+Do certain types of prompts (such as factual vs reasoning) lead to higher-quality responses?
+How consistent are human judgments when evaluating the same responses?
+Overall, my goal is to design a small but structured experiment that focuses on prompt design and human evaluation, rather than trying to scale up the dataset.
