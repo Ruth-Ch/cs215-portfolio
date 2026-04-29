@@ -168,3 +168,50 @@ One challenge is collecting enough reviewer feedback while keeping the project m
 Another challenge is reducing subjectivity in scoring. To address this, I plan to use a clear and simple rubric.
 
 A final challenge is keeping the project focused and small enough to complete well. 
+
+---
+
+# Mini Project 5: Working with Geospatial Data
+
+## Project Overview
+
+For this project, I analyzed Professor Wirfs-Brock’s location data from her Whitman interview visit in March 2022 using geospatial analysis and interactive mapping.
+
+---
+
+## Part A: Distance Analysis
+
+I selected Memorial Building at Whitman College as my reference location.
+
+Using the haversine formula, I calculated the distance between Memorial Building and every location point in the dataset.
+
+The closest Professor Wirfs-Brock came to Memorial Building was approximately **0.0468 km** at **2022-03-11 20:10:01**.
+
+The furthest point was approximately **1306.56 km** at **2022-03-12 21:34:38**, which likely represents travel outside Walla Walla.
+
+---
+
+## Part B: Movement Hypothesis
+
+My hypothesis was that Professor Wirfs-Brock’s visit was mostly centered around Whitman College and nearby Walla Walla locations, while the largest distances occurred when she was traveling to or from the visit.
+
+The interactive map shows that most location points are clustered around Walla Walla and the Whitman campus area, suggesting that most of her time was spent near campus for meetings, interviews, and visit-related activities.
+
+The distance-over-time graph provides stronger evidence. At the beginning of the dataset, the distance from Memorial Building is very large, suggesting travel to Walla Walla. During most of the visit, the distance remains very low, meaning she stayed close to campus. At the end of the dataset, the distance increases sharply again, suggesting travel away after the visit.
+This supports a clear **travel -> campus visit -> travel** pattern.
+
+---
+
+## Visualizations
+
+### Plotly Map
+
+[View Interactive Walla Walla Map](./walla_walla_map.html)
+
+### Distance from Memorial Building Over Time
+
+[View Interactive Distance Graph](./distance_graph.html)
+
+---
+## Conclusion
+This project shows how geospatial data can be used to understand movement patterns and tell meaningful stories using location-based analysis. By combining the haversine formula with interactive mapping and visualization, I was able to better understand how Professor Wirfs-Brock’s visit was structured around campus activities and travel.
