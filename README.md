@@ -206,11 +206,11 @@ This supports a clear **travel -> campus visit -> travel** pattern.
 
 ### Plotly Map
 
-[View Interactive Walla Walla Map](./walla_walla_map(1).html)
+[View Interactive Walla Walla Map](./walla_walla_map (1).html)
 
 ### Distance from Memorial Building Over Time
 
-[View Interactive Distance Graph](./distance_graph(1).html)
+[View Interactive Distance Graph](./walla_walla_map (1).html)
 
 ---
 ## Conclusion
