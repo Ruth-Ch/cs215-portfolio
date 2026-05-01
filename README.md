@@ -215,3 +215,21 @@ This supports a clear **travel -> campus visit -> travel** pattern.
 ---
 ## Conclusion
 This project shows how geospatial data can be used to understand movement patterns and tell meaningful stories using location-based analysis. By combining the haversine formula with interactive mapping and visualization, I was able to better understand how Professor Wirfs-Brock’s visit was structured around campus activities and travel.
+
+---
+
+## Week 12 Update: Exploratory Analysis & Visualization
+
+For my final project, I am studying how people evaluate responses from large language models (LLMs), specifically ChatGPT and Gemini. Instead of using an existing dataset, I am designing a small experiment and creating my own dataset through human evaluation.
+
+I refined my project to focus on two data science prompt types: a conceptual prompt (overfitting) and an applied prompt (data cleaning). This allows me to compare how people evaluate responses across different levels of complexity.
+
+Since I have not yet collected human rating data, my exploratory analysis focuses on the structure of my experiment. I created a visualization to represent my expectation of how difficult each prompt type will be for participants to evaluate.
+
+### Visualization
+
+[View Interactive Evaluation Difficulty Graph](./week12_evaluation_difficulty.html)
+
+I expect the conceptual prompt to be easier to evaluate because it has a clearer and more direct answer. In contrast, the applied prompt may be more difficult because there are multiple reasonable ways to answer it, which could lead to more variation in how people rate responses.
+
+This exploratory step helped me refine my evaluation design and better understand how to measure response quality. My next steps are to finalize the evaluation form, collect participant responses, and analyze differences in ratings across models and prompt types.
