@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Human Evaluation of AI-Generated Responses
 ---
 
@@ -199,6 +198,11 @@ I also enjoyed exploring a more human-centered approach to data science and AI e
 Overall, this project gave me a much deeper understanding of the complete data science process, from designing research questions and collecting data to interpreting results and presenting findings through storytelling and visualization.
 
 ---
+## New Technique Learned
+
+One new technique I explored during this project was creating grouped comparison visualizations to analyze multiple evaluation categories across different AI responses and prompt types.
+
+I also learned more about survey design and response-order bias while creating the dataset. To make the evaluation process more balanced, I designed four different survey versions with varying response order and anonymized the AI systems as “Response A” and “Response B” so that participants would evaluate the content itself rather than the model name.
 
 ## Tools and Technologies Used
 
@@ -209,6 +213,8 @@ Overall, this project gave me a much deeper understanding of the complete data s
 - Google Forms
 - Google Colab
 - GitHub Pages
+- Gemini
+- ChatGPT
 
 ---
 
