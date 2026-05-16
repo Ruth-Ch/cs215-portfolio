@@ -1,5 +1,4 @@
----
-title: Human Evaluation of AI-Generated Responses
+
 ---
 
 # Human Evaluation of AI-Generated Responses
