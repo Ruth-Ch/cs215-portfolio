@@ -206,19 +206,16 @@ Overall, this project gave me a much deeper understanding of the complete data s
 
 ---
 
-## Tools and Technologies Used
+## References and Resources
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
+- OpenAI ChatGPT
+- Google Gemini
+- Pandas documentation
+- Matplotlib documentation
 - Google Forms
 - Google Colab
 - GitHub Pages
-- Gemini
-- ChatGPT
-
----
+- CS-215 course materials
 
 ## Repository Contents
 
