@@ -182,6 +182,14 @@ This project was exploratory because it included 19 survey responses and only tw
 If I had more time, I would collect more responses, include more prompt types, compare additional AI systems, and separate technical and non-technical participants for deeper analysis.
 
 ---
+
+## New Technique Learned
+
+One new technique I explored during this project was creating grouped comparison visualizations to analyze multiple evaluation categories across different AI responses and prompt types.
+
+I also learned more about survey design and response-order bias while creating the dataset. To make the evaluation process more balanced, I designed four different survey versions with varying response order and anonymized the AI systems as “Response A” and “Response B” so that participants would evaluate the content itself rather than the model name.
+---
+
 ## Reflection
 
 Through this project, I learned how much work goes into building and analyzing a real dataset from start to finish. Instead of working with a pre-existing dataset, I designed my own survey process, collected responses, combined multiple datasets, cleaned inconsistent exports, and organized the data into a format suitable for analysis.
@@ -197,11 +205,6 @@ I also enjoyed exploring a more human-centered approach to data science and AI e
 Overall, this project gave me a much deeper understanding of the complete data science process, from designing research questions and collecting data to interpreting results and presenting findings through storytelling and visualization.
 
 ---
-## New Technique Learned
-
-One new technique I explored during this project was creating grouped comparison visualizations to analyze multiple evaluation categories across different AI responses and prompt types.
-
-I also learned more about survey design and response-order bias while creating the dataset. To make the evaluation process more balanced, I designed four different survey versions with varying response order and anonymized the AI systems as “Response A” and “Response B” so that participants would evaluate the content itself rather than the model name.
 
 ## Tools and Technologies Used
 
