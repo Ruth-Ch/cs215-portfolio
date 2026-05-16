@@ -120,6 +120,8 @@ Although the differences were not dramatic, the results suggest that participant
 
 To better understand where differences appeared, I compared average ratings across clarity, completeness, helpfulness, and overall quality.
 
+![Category Comparison](category_comparison.png)
+
 ### Main Insight
 
 The applied data-cleaning prompt generally received slightly higher helpfulness and overall quality ratings than the conceptual overfitting prompt.
@@ -133,6 +135,8 @@ Completeness ratings remained relatively strong across both prompts, showing tha
 ## Consistency of Participant Ratings
 
 To study variation in participant opinions, I also calculated standard deviations for the rating categories.
+
+![Rating Consistency](rating_consistency.png)
 
 ### Main Insight
 
@@ -148,6 +152,7 @@ This analysis demonstrated that human-centered AI evaluation is not purely objec
 
 I also compared average ratings between the conceptual prompt and the applied prompt.
 
+![Prompt Comparison](prompt_comparison.png)
 ### Main Insight
 
 The applied data-cleaning prompt generally received slightly higher ratings in helpfulness and overall quality. In contrast, the conceptual prompt performed slightly better in completeness.
@@ -162,6 +167,8 @@ This comparison highlights how prompt type itself can influence human evaluation
 
 After anonymized evaluation was completed, I mapped the responses back to their original AI systems to compare ChatGPT and Gemini directly.
 
+![ChatGPT vs Gemini Comparison](model_comparison.png)
+
 ### Main Insight
 
 Both models performed similarly overall, with average ratings remaining relatively close across categories.
@@ -169,6 +176,12 @@ Both models performed similarly overall, with average ratings remaining relative
 Gemini received slightly stronger ratings in helpfulness and overall quality, while ChatGPT performed slightly better in completeness. However, the differences were relatively small, suggesting that both systems produced responses participants considered useful and understandable.
 
 Rather than identifying a single “better” model, the results suggest that participant preferences may depend more on explanation style and communication approach than on large differences in technical performance.
+
+## Limitations and Future Work
+
+This project was exploratory because it included 19 survey responses and only two prompts. Participant backgrounds also varied, which may have influenced how people interpreted the responses.
+
+If I had more time, I would collect more responses, include more prompt types, compare additional AI systems, and separate technical and non-technical participants for deeper analysis.
 
 ---
 ## Reflection
@@ -199,14 +212,12 @@ Overall, this project gave me a much deeper understanding of the complete data s
 
 ---
 
-## Repository and Project Materials
+## Repository Contents
 
-This repository contains:
+This repository includes:
 
-- the cleaned dataset
-- analysis notebooks
-- visualizations
-- exported interactive graphs
-- project website files
-
----
+- the final analysis notebook
+- cleaned survey data
+- visualizations used in the project
+- GitHub Pages website files
+- written project documentation
